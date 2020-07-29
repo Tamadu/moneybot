@@ -1,24 +1,11 @@
-# README
+#LINEBotでファンドBot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+概要
+　その日の投資信託のファンドの価額がLINEで知れます。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+制作背景
+　前職の銀行でリテール業務をしていて、1日の株価の終値が知れたり、保有しているファンドの価格や情報が手軽に届けばいいなと思っていました。
+　LINEBotを利用すれば気軽に簡単に知りたいときに知れるので、利用してみようと考えました。
+ 
+実装予定の内容
+　まずはオウム返しができるようにし、その後三菱UFJ国際投信のAPIを利用して実装予定。
